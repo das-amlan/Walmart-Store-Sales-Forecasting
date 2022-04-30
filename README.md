@@ -9,11 +9,11 @@ There are a total of four datasets in the data.
 
 1. **stores.csv**
 
-This file contains anonymized information about the 45 stores, indicating the type and size of store.
+>This file contains anonymized information about the 45 stores, indicating the type and size of store.
 
 2. **train.csv**
 
-This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
+>This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
 
 * Store - the store number
 * Dept - the department number
@@ -23,11 +23,11 @@ This is the historical training data, which covers to 2010-02-05 to 2012-11-01. 
 
 3. **test.csv**
 
-This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
+>This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
 4. **features.csv**
 
-This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
+>This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
 
 * Store - the store number
 * Date - the week
