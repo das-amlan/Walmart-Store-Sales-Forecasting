@@ -10,7 +10,7 @@ There are four datasets available in the data:
 
 1. `stores.csv`: Contains anonymized information about the 45 stores, including the type and size of the store.
 
-1.`train.csv`: Historical training data covering the period from 2010-02-05 to 2012-11-01. 
+1. `train.csv`: Historical training data covering the period from 2010-02-05 to 2012-11-01. 
 The following fields are available in this file:
 
  - `Store`: Store number
@@ -18,9 +18,9 @@ The following fields are available in this file:
  - `Date`: Week
  - `Weekly_Sales`: Sales for the given department in the given store
  - `IsHoliday`: Whether the week is a special holiday week
-1.`test.csv`: Identical to the `train.csv` file, except the weekly sales are withheld. The sales must be predicted for each store, department, and date in this file.
+1. `test.csv`: Identical to the `train.csv` file, except the weekly sales are withheld. The sales must be predicted for each store, department, and date in this file.
 
-1.`features.csv: Contains additional data related to the store, department, and regional activity for the given dates. The following fields are available:
+1 .`features.csv: Contains additional data related to the store, department, and regional activity for the given dates. The following fields are available:
 
  - `Store`: Store number
  - `Date`: Week
